@@ -1,0 +1,36 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+  }
+  
+  .gallery-item {
+    flex-basis: calc(20% - 20px);
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .image {
+    width: 100%;
+    height: 200px; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .caption {
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: left;
+    left: 30px;
+  }
+  .image:hover{
+    transform: scale(1.1);
+    border: #6e0606;
+  }
+ @media only screen(max-width: 786px)
+
